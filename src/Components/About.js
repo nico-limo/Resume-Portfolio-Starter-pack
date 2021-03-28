@@ -1,5 +1,5 @@
 import React from "react";
-
+import pdf from "../pdf/cv.pdf";
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
@@ -11,7 +11,6 @@ const About = ({ data }) => {
     var zip = data.address.zip;
     var phone = data.phone;
     var email = data.email;
-    var resumeDownload = data.resumedownload;
   }
 
   return (
@@ -21,16 +20,16 @@ const About = ({ data }) => {
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Sonny's Profile Pic"
+            alt="Nico profile"
           />
         </div>
         <div className="nine columns main-col">
-          <h2>About Me</h2>
+          <h2>Sobre Mi</h2>
 
           <p>{bio}</p>
           <div className="row">
             <div className="columns contact-details">
-              <h2>Contact Details</h2>
+              <h2>Datos de Contacto</h2>
               <p className="address">
                 <span>{name}</span>
                 <br />
@@ -47,8 +46,8 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                <a href={pdf} download="Cv Nicolas Limonoff" className="button">
+                  <i className="fa fa-download"></i>Download CV
                 </a>
               </p>
             </div>

@@ -1,5 +1,5 @@
 {
-  "name": "resume_starter_pack",
+  "name": "limo_portafolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-link": "^2.0.2",
     "react-scripts": "4.0.1",
     "react-typewriter": "^0.4.1",
     "web-vitals": "^0.2.4"

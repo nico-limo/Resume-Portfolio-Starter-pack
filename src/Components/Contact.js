@@ -32,7 +32,7 @@ const Contact = ({ data }) => {
       <div className="row section-head">
         <div className="two columns header-col">
           <h1>
-            <span>Get In Touch.</span>
+            <span>Estemos en contacto.</span>
           </h1>
         </div>
 
@@ -47,7 +47,7 @@ const Contact = ({ data }) => {
             <fieldset>
               <div>
                 <label htmlFor="contactName">
-                  Name <span className="required">*</span>
+                  Nombre <span className="required">*</span>
                 </label>
                 <input
                   type="text"
@@ -90,11 +90,11 @@ const Contact = ({ data }) => {
 
               <div>
                 <label htmlFor="contactMessage">
-                  Message <span className="required">*</span>
+                  Mensaje <span className="required">*</span>
                 </label>
                 <textarea
-                  cols="50"
-                  rows="15"
+                  cols="20"
+                  rows="5"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
@@ -110,16 +110,16 @@ const Contact = ({ data }) => {
             </fieldset>
           </form>
 
-          <div id="message-warning"> Error boy</div>
+          <div id="message-warning"> Error, intente nuevamente</div>
           <div id="message-success">
-            <i className="fa fa-check"></i>Your message was sent, thank you!
+            <i className="fa fa-check"></i>Su mensaje se envio exitosamente, muchas gracias!
             <br />
           </div>
         </div>
 
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
+            <h4>Datos y Dirección</h4>
             <p className="address">
               {contactName}
               <br />
