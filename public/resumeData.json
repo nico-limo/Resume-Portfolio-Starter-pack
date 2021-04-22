@@ -59,11 +59,11 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "73%"
+        "level": "75%"
       },
       {
         "name": "Redux",
-        "level": "40%"
+        "level": "50%"
       },
       {
         "name": "Node Js",
@@ -71,7 +71,7 @@
       },
       {
         "name": "Recoil",
-        "level": "30%"
+        "level": "60%"
       },
       {
         "name": "Html",
@@ -122,6 +122,12 @@
         "category": "",
         "image": "drunkart.png",
         "url": "https://youtu.be/-4EkhfQ38N4"
+      },
+      {
+        "title": "Pizapp",
+        "category": "",
+        "image": "pizza.png",
+        "url": "https://youtu.be/hGsKvRCzWgQ"
       }
     ]
   },
